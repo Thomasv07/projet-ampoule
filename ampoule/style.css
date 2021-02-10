@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+	font-family: 'Police';
+	src: url('fonts/PoiretOne-Regular.eot');
+	src: local('☺'), url('fonts/PoiretOne-Regular.woff') format('woff'), url('fonts/PoiretOne-Regular.ttf') format('truetype'), url('fonts/PoiretOne-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+header{
+    background-color: black;
+    border-bottom: solid #8f0208;
+    height: 75px ;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    line-height: 75px;
+}
+header nav ul li{
+    display: inline;
+}
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+}
+header nav ul li a:hover{
+    color: #f3c275;
+    transition: 0.5s;
+}
+.image{
+    overflow: hidden;
+}
+body{
+    background: linear-gradient(to right, #c31432, #240b36);
+}
+form{
+    display: flex;
+    align-items: center;
+}
+form fieldset{
+    margin-top: 100px;
+    width: 500px;
+    height: 500px;
+    background: tan;
+    border: solid  #c31432 1px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+label{
+    display: block;
+}
+input{
+    width: 250px;
+    margin: 15px;
+    padding: 3px;
+}
+input[type=submit]{
+    border-radius: 50px;
+    border: black solid 1px;
+    
+}
+select{
+    width: 250px;
+    margin: 15px;
+}
+
+
+legend{
+    font-size: 40px;
+    margin: 15px;
+    font-family: "Police";
+    color: #c31432;    
+}
+main{
+    
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    border-collapse: collapse;
+    background-color:white;
+}
+td, th, tr{
+    border: 2.5px solid #c31432;
+}
